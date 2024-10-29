@@ -1,0 +1,1 @@
+<div>	<?php the_post_thumbnail( 'full', array('u'=>'image')); ?>	<div u="thumb"><?php echo the_title_attribute('echo=0'); ?></div>	<div u="caption" t="L" style="position: absolute; top: 20px; left: 20px; width: 100%; height: 40px; color: #FC9835; font-size: 20px; line-height: 30px;"><?php echo the_content(); ?></div>	</div>
